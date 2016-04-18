@@ -1,7 +1,10 @@
 ### Creating Legacy Icons using 2525D format.
-1. Open these [template octagon SVG's](https://github.com/Esri/joint-military-symbology-xml/tree/master/svg/MIL_STD_2525D_Symbols) in separate views in illustrator. They are Bounding Octagon.svg, BoundingOctagon_H.svg, and BoundingOctagon_V svg.
+1. Open these [template octagon SVG's](https://github.com/Esri/joint-military-symbology-xml/tree/master/svg/MIL_STD_2525D_Symbols) in separate views in illustrator. They are `BoundingOctagon.svg`, `BoundingOctagon_H.svg`, and `BoundingOctagon_V.svg`.
+  * If the Icon has a `Frame Type` tag that says `Full_Octagon`, use `BoundingOctagon.svg`.
+  * If the Icon is from Symbol Sets 01 or 02, use `BoundingOctagon_V.svg`.
+  * Else, use `BoundingOctagon_H.svg`.
 2. Obtain your desired SVG icon from one of the retired symbol sets.
-3. Open the retired SVG icon in illustrator. Explore the layers in the icon and remove any unnecessary elements of the icon (usually the frame).
+3. Open the retired SVG icon in illustrator. Explore the layers in the icon and remove any unnecessary elements of the icon. This includes anything that is not the core icon, like the background and the frame.
 4. Navigate to one of the template octagon SVG's in illustrator. Select it, copy it, and paste it into the same view as your retired icon SVG. 
 5. Select the desired elements of your icon SVG (it may be easier to select from the layers panel instead of selecting directly in the view/artboard).
 6. Re-size the icon SVG so that the edges of the SVG are touching the appropriate parts of the template octagon. You can either re-size the elements directly in the artboard, or you may manipulate the W and H values that are docked above the artboard.
